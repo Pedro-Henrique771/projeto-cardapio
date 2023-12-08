@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/*
+8acb88 -> Verde mais claro
+c17817 -> Marronzin
+306b34 -> Verde mais escuro
+*/
+
+header{
+    background-image: linear-gradient(to bottom, #8acb88 #306b34);
+    height: 100px;
+    margin: 0px 0px 20px 0px;
+    padding: 9px;
+    color: #d47c09 ;
+}
+
+header > h1{
+    margin: 10px;
+    padding: 5px;
+
+}
+
+nav > p{
+    display: inline;
+    margin: 3px;
+    padding: 5px;
+}
