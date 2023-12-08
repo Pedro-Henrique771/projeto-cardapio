@@ -1,27 +1,64 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: banner;
+    src: url(Fontes/Wrong\ Delivery.ttf);
+}
+
 /*
-8acb88 -> Verde mais claro
-c17817 -> Marronzin
-306b34 -> Verde mais escuro
+#8acb88 -> Verde mais claro
+#CCC266 -> Amarelinho
+#FF0A01 -> Vermelho
+#CC2E29 -> Vermelho mais escuro
 */
 
+body{
+    background-image: url(imagens/fundo.png);
+    background-size: 100%;
+    
+}
+
 header{
-    background-image: linear-gradient(to bottom, #8acb88 #306b34);
+    background-image: linear-gradient(to bottom, #FF0A01, #99221eef);
     height: 100px;
     margin: 0px 0px 20px 0px;
     padding: 9px;
-    color: #d47c09 ;
+    color: #CCC266;
 }
 
 header > h1{
     margin: 10px;
     padding: 5px;
+    font-family: banner, sans-serif;
 
 }
 
-nav > p{
+nav  p{
     display: inline;
     margin: 3px;
     padding: 5px;
+    color: #CCC266;
+    text-decoration: underline;
 }
+
+main{
+    padding: 5px;
+    margin: 10px auto;
+    width: 95%;
+    background-color: white;
+}
+
+article{
+    border: 2px solid black;
+    border-radius: 9px;
+    margin: 15px;
+    padding: 0%;
+    background-color: rgba(0, 0, 0, 0.616);
+    color: #CCC266;
+}
+
+article > p{
+    padding: 2px 0px 7px 2px;
+    margin: 0%;
+}
+
