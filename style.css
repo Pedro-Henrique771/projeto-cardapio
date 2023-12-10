@@ -13,8 +13,10 @@
 */
 
 body{
+    height: 98vh;
     background-image: url(imagens/fundo.png);
-    background-size: 100%;
+    background-size: 100% 100%;
+    position: relative;
     
 }
 
@@ -45,7 +47,9 @@ main{
     padding: 5px;
     margin: 10px auto;
     width: 95%;
-    background-color: white;
+    
+    
+    
 }
 
 article{
