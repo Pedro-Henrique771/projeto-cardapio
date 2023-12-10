@@ -40,7 +40,24 @@ nav  p{
     margin: 3px;
     padding: 5px;
     color: #CCC266;
-    text-decoration: underline;
+    
+}
+
+nav a{
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+nav p:active{
+    background-color: #CCC266;
+    border-radius: 3px;
+    color: black;
+}
+
+nav p:hover{
+    background-color: #CCC266;
+    border-radius: 3px;
+    color: black;
 }
 
 main{
