@@ -5,11 +5,18 @@
     src: url(Fontes/Wrong\ Delivery.ttf);
 }
 
+@import url('https://fonts.googleapis.com/css2? family= Passion+One & display=swap');
+
+:root{
+    --font001: "Passion one", cursive;
+}
 /*
 #8acb88 -> Verde mais claro
 #CCC266 -> Amarelinho
 #FF0A01 -> Vermelho
 #CC2E29 -> Vermelho mais escuro
+
+Teste
 */
 
 body{
@@ -31,7 +38,7 @@ header{
 header > h1{
     margin: 10px;
     padding: 5px;
-    font-family: banner, sans-serif;
+    font-family: var(--font001);
 
 }
 
@@ -83,3 +90,13 @@ article > p{
     margin: 0%;
 }
 
+footer{
+    background-color: black;
+    color: #CCC266;
+    text-align: center;
+}
+
+footer  a{
+    text-decoration: none;
+    color: orange;
+}
