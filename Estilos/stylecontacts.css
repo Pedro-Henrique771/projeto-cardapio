@@ -9,7 +9,30 @@ body{
     background-color: wheat;
 }
 
-.icones{
+#perfil{
+    padding: 10px;
+    width: 150px;
+    border-radius: 50%;
+    display: inline;
+}
+
+#img-com-texto{
+    position: relative;
+    display: inline-block;
+}
+
+figcaption {
+    width: 100%;
+    position: absolute;  
+    top: 50px;
+    bottom: 170px;
+    left: 200px; 
+    text-align: justify; 
+    font-family: Arial, sans-serif;   
+    font-size: 14px; 
+    color: #333; 
+}
+    .icones{
     width: 30px;
     border-radius: 50%;
 }
@@ -18,7 +41,7 @@ header{
     background-color: black;
     color: white;
     padding: 50px 0px 10px 10px;
-    height: 120px;
+    height: 90px;
     text-align: center;
 
 }
@@ -26,6 +49,8 @@ header{
 main{
     background-color: white;
     margin: 0px 30px 10px 30px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.37);
 }
 
 main li{
@@ -35,4 +60,8 @@ main li{
 
 #m0{
     padding-top: 15px;
+}
+
+#m1{
+    padding-bottom: 15px;
 }
