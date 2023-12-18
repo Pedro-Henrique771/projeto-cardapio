@@ -16,23 +16,23 @@ body{
     display: inline;
 }
 
-#img-com-texto{
-    position: relative;
-    display: inline-block;
+.container{
+    display: flex;
 }
 
-figcaption {
-    width: 100%;
-    position: absolute;  
-    top: 50px;
-    bottom: 170px;
-    left: 200px; 
-    text-align: justify; 
-    font-family: Arial, sans-serif;   
-    font-size: 14px; 
-    color: #333; 
+.autobiografia{
+    margin: 5%;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 22px;
+    
 }
-    .icones{
+
+#contacts{
+    
+}
+    
+.icones{
     width: 30px;
     border-radius: 50%;
 }

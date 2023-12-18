@@ -71,9 +71,6 @@ main{
     padding: 5px;
     margin: 10px auto;
     width: 95%;
-    
-    
-    
 }
 
 article{
@@ -88,6 +85,11 @@ article{
 article > p{
     padding: 2px 0px 7px 2px;
     margin: 0%;
+}
+
+article:hover{
+    border: 1px solid #CCC266;
+    padding: 3%;
 }
 
 footer{
