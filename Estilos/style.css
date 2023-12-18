@@ -65,6 +65,7 @@ nav p:hover{
     background-color: #CCC266;
     border-radius: 3px;
     color: black;
+    
 }
 
 main{
@@ -76,7 +77,7 @@ main{
 article{
     border: 2px solid black;
     border-radius: 9px;
-    margin: 15px;
+    margin: 19px;
     padding: 0%;
     background-color: rgba(0, 0, 0, 0.616);
     color: #CCC266;
@@ -89,7 +90,8 @@ article > p{
 
 article:hover{
     border: 1px solid #CCC266;
-    padding: 3%;
+    padding: 2.8%;
+    margin-bottom: 50px;
 }
 
 footer{
