@@ -28,8 +28,11 @@ body{
     
 }
 
-#contacts{
-    
+.subtitulos{
+    background-image: linear-gradient(to right, black, transparent);
+    color: white;
+    padding-left: 10px;
+    margin-bottom: 10px;
 }
     
 .icones{
@@ -64,4 +67,8 @@ main li{
 
 #m1{
     padding-bottom: 15px;
+}
+
+section > ul{
+    list-style-position: inside;
 }
