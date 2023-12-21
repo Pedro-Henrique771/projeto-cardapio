@@ -90,8 +90,12 @@ article > p{
 
 article:hover{
     border: 1px solid #CCC266;
-    padding: 2.8%;
+    padding: 2.8% 2.8% 3% 2.8%;
     margin-bottom: 50px;
+    background-image: url(../imagens/lanche.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 footer{
