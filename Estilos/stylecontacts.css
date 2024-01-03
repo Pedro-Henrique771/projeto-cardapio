@@ -3,6 +3,7 @@
 *{
     padding: 0%;
     margin: 0%;
+    list-style: none;
 }
 
 body{
@@ -13,17 +14,20 @@ body{
     padding: 10px;
     width: 150px;
     border-radius: 50%;
-    display: inline;
+    margin: auto;
+    
 }
 
 .container{
     display: flex;
+    flex-wrap: wrap;
 }
+    
 
 .autobiografia{
     margin: 5%;
     text-align: justify;
-    text-indent: 20px;
+    flex: 2 1 260px;
     line-height: 22px;
     
 }
@@ -38,6 +42,7 @@ body{
 .icones{
     width: 30px;
     border-radius: 50%;
+    list-style: none;
 }
 
 header{
@@ -71,4 +76,9 @@ main li{
 
 section > ul{
     list-style-position: inside;
+}
+
+section a{
+    text-decoration: none;
+    color: blue;
 }
